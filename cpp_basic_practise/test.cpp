@@ -38,5 +38,8 @@ int main(int argc ,char *argv[])
 
 	cout << sizeof(int) << endl;
 
+#if defined(__linux)
+	cout << "This is Linux system\n" <<endl;
+#endif
 
 }

@@ -74,7 +74,7 @@ int main(int argc ,char *argv[])
     cout << "The origin entry is :" << &e <<endl;
 
     PrintEntry(e);
-    //PrintEntry2(e);
+    PrintEntry2(e);
 
 
     //cout << *a << endl;
