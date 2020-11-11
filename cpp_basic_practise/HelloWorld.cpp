@@ -64,7 +64,7 @@ void PrintEntry2(Entry e)
     cout << "The new entry is :" << &e <<endl;
 }
 
-int main(int argc ,char *argv[])
+int main(int argc ,char *argv[], char *env[])
 {
     //hw = new HelloWorld();
     //int * const a = new int;
@@ -72,10 +72,11 @@ int main(int argc ,char *argv[])
 
     Entry e;
     cout << "The origin entry is :" << &e <<endl;
-
+    
     PrintEntry(e);
     PrintEntry2(e);
 
+    cout << "The env is " << env[0] << endl;
 
     //cout << *a << endl;
 
